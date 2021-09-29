@@ -2,6 +2,18 @@
 
 */
 
+#carr1 {
+    float: left;
+    height: 320;
+    width: 50%
+}
+
+#carr2 {
+    float: left;
+    height: 320;
+    width: 50%
+}
+
 #tour {
     z-index: 590;
     width: 177px;
