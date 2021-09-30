@@ -2,6 +2,160 @@
 
 */
 
+#boton {
+    z-index: 560;
+    width: 166px;
+    min-height: 27px;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-delay: 0s;
+    -webkit-transition-timing-function: ease;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+    background-image: url("../../images/blank.gif?crc=4208392903");
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5E5B50;
+    background-color: transparent;
+    border-radius: 10px;
+    line-height: 26px;
+    color: #5E5B50;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 12px;
+    font-family: gfs-didot, serif;
+    font-weight: 400;
+    position: relative;
+    margin-right: -10000px;
+    margin-top: 170px;
+    left: 47px;
+}
+
+#buttonu45394:hover #boton {
+    background-color: #CEC8C1;
+    opacity: 0.73;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=73)";
+    filter: alpha(opacity=73);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    min-height: 27px;
+    width: 166px;
+    margin: 170px -10000px 0px 0px;
+}
+
+#buttonu45394.ButtonSelected #boton {
+    background-color: transparent;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    border-radius: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    min-height: 27px;
+    width: 166px;
+    margin: 170px -10000px 0px 0px;
+}
+
+#buttonu45394:hover #boton p {
+    color: #000000;
+    visibility: inherit;
+}
+
+#u41108-6,
+#u41108-8,
+#u41108-13,
+#u41108-15,
+#u41108-23,
+#u41108-25 {
+    font-size: 15px;
+    line-height: 20px;
+    font-family: '__Montserrat_5';
+    font-weight: 400;
+}
+
+#tour {
+    z-index: 419;
+    width: 177px;
+    min-height: 33px;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-delay: 0s;
+    -webkit-transition-timing-function: ease;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+    background-image: url("../../images/blank.gif?crc=4208392903");
+    border-style: solid;
+    border-width: 1px;
+    border-color: #5E5B50;
+    background-color: transparent;
+    border-radius: 10px;
+    line-height: 31px;
+    color: #5E5B50;
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-family: gfs-didot, serif;
+    font-weight: 400;
+    margin-left: 50px;
+    margin-top: 4px;
+    position: relative;
+}
+
+#tour:hover {
+    background-color: #CEC8C1;
+    opacity: 0.73;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=73)";
+    filter: alpha(opacity=73);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    min-height: 33px;
+    width: 177px;
+    margin: 4px 0px 0px 50px;
+}
+
+#tour.MuseLinkActive {
+    background-color: transparent;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    border-radius: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    min-height: 33px;
+    width: 177px;
+    margin: 4px 0px 0px 50px;
+}
+
+#tour:hover p {
+    color: #000000;
+    visibility: inherit;
+}
+
+#carr1 {
+    width: 100%
+}
+
+#carr2 {
+    width: 100%
+}
+
+#u41821-2,
+#u41823-2 {
+    font-size: 20px;
+    line-height: 54px;
+    letter-spacing: 1px;
+    font-family: cantata-one, serif;
+    font-weight: 400;
+}
+
+#titulo {
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    font-family: cantata-one, serif;
+    font-weight: 400;
+}
+
 .version.tania_and_daniel {
     color: #0000E7;
     background-color: #E8D4DF;
@@ -105,7 +259,7 @@
     margin-top: 1155px;
     left: -692px;
     padding: 47px 25px 43.27131832605937px 24px;
-    background: #FFFFFF url("../../images/popups-buttonu45394-fr.jpg?crc=451971145") no-repeat center center;
+    background: #FFFFFF url("../../images/popups-buttonu43134-fr.jpg") no-repeat center center;
     background-size: cover;
 }
 
@@ -196,7 +350,7 @@
     font-weight: 400;
     position: relative;
     margin-right: -10000px;
-    margin-top: 169px;
+    margin-top: 140px;
     left: 47px;
 }
 
@@ -209,7 +363,7 @@
     padding-bottom: 0px;
     min-height: 27px;
     width: 166px;
-    margin: 169px -10000px 0px 0px;
+    margin: 140px -10000px 0px 0px;
 }
 
 #buttonu45394.ButtonSelected #u45395-4 {
@@ -222,7 +376,7 @@
     padding-bottom: 0px;
     min-height: 27px;
     width: 166px;
-    margin: 169px -10000px 0px 0px;
+    margin: 140px -10000px 0px 0px;
 }
 
 #buttonu45394:hover #u45395-4 p {
@@ -249,7 +403,7 @@
     margin-left: 14px;
     position: relative;
     padding: 67px 26px 76px 24px;
-    background: #FFFFFF url("../../images/popups-buttonu45402-fr.jpg?crc=4124673140") no-repeat center center;
+    background: #FFFFFF url("../../images/popups-buttonu43134-fr.jpg") no-repeat center center;
     background-size: cover;
 }
 
@@ -945,7 +1099,7 @@
 
 #u45105 {
     z-index: 125;
-    min-height: 2415px;
+    min-height: 1500px;
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
@@ -961,6 +1115,19 @@
 
 #book {
     margin-left: 166px;
+    position: relative;
+}
+
+#inicio {
+    width: 100%;
+    min-height: 119px;
+    background-color: transparent;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-family: '__Montserrat_5';
+    font-weight: 400;
+    margin-top: 48px;
     position: relative;
 }
 
@@ -990,7 +1157,7 @@
 
 #u45173-12 {
     z-index: 210;
-    margin-left: 74px;
+    margin-left: 68px;
     margin-top: 16px;
     position: relative;
 }
@@ -1392,14 +1559,14 @@
 
 #u45105-bw {
     z-index: 125;
-    min-height: 2415px;
+    min-height: 1500px;
     margin-top: -2px;
     margin-bottom: -2px;
 }
 
 #u45094 {
     z-index: 91;
-    min-height: 4352.793089962048px;
+    min-height: 1500px;
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
@@ -5021,12 +5188,12 @@
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 400;
-    background: #EFEBE4 url("../../images/backtransporte-u45093-4-fr.jpg?crc=4186724305") no-repeat center center;
+    background: #EFEBE4 url("../../images/backtransporte.jpg") no-repeat center center;
     background-size: cover;
 }
 
 .hidpi #u45093-4 {
-    background-image: url("../../images/backtransporte-u45093-4-fr_2x.jpg?crc=4252974802");
+    background-image: url("../../images/backtransporte.jpg");
 }
 
 #u45093-4-bw {
@@ -5086,7 +5253,7 @@
     letter-spacing: 1px;
     position: relative;
     margin-right: -10000px;
-    margin-top: 150px;
+    margin-top: 80px;
     left: 46px;
 }
 
@@ -5141,12 +5308,12 @@
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
-    background: transparent url("../../images/fondo_tania-u44127-fr.png?crc=3938973705") no-repeat left top;
+    background: transparent url("../../images/fondogift.png") no-repeat left top;
     background-size: cover;
 }
 
 .hidpi #u45095 {
-    background-image: url("../../images/fondo_tania-u44127-fr_2x.png?crc=63475462");
+    background-image: url("../../images/fondogift.png");
 }
 
 #u45095_position_content {
@@ -5283,7 +5450,7 @@
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
     padding-bottom: 504px;
-    background: transparent url("../../images/rsvp2.jpg?crc=4145254072") no-repeat right top;
+    background: transparent url("../../images/rsvp2-phone.png") no-repeat right top;
     background-size: cover;
 }
 
