@@ -2,6 +2,22 @@
 
 */
 
+#restaurants {
+    left: 44px;
+    margin-top: 36px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 180px;
+    width: 100%;
+    align-items center;
+}
+
+#foto {
+    margin-top: 100px;
+}
+
 #boton {
     z-index: 560;
     width: 166px;
@@ -5146,7 +5162,7 @@
 #pu46053 {
     z-index: 38;
     width: 0.01px;
-    margin-top: -3px;
+    margin-top: -20px;
 }
 
 #u46053 {
@@ -5219,6 +5235,7 @@
     left: 24px;
 }
 
+#u39071,
 #u45097,
 #u45102,
 #u45101,
@@ -5231,6 +5248,7 @@
     font-family: tenor-sans, sans-serif;
 }
 
+#u39071-3,
 #u45097-3,
 #u45102-3,
 #u45101-3,
