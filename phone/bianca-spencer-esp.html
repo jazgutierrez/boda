@@ -5,74 +5,37 @@
 
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
     <meta name="generator" content="2018.1.0.386" />
+    <meta name="viewport" content="width=380" />
 
     <script type="text/javascript">
-        // Redirect to phone/tablet as necessary
-        (function(c, b, d) {
-            var a = function() {
-                    if (navigator.maxTouchPoints > 1) return !0;
-                    if (window.matchMedia && window.matchMedia("(-moz-touch-enabled)").matches) return !0;
-                    for (var a = ["Webkit", "Moz", "O", "ms", "Khtml"], b = 0, c = a.length; b < c; b++) {
-                        var d = a[b] + "MaxTouchPoints";
-                        if (d in navigator && navigator[d]) return !0
-                    }
-                    try {
-                        return document.createEvent("TouchEvent"), !0
-                    } catch (f) {}
-                    return !1
-                }(),
-                f = function(a) {
-                    a += "=";
-                    for (var b = document.cookie.split(";"), c = 0; c < b.length; c++) {
-                        for (var d = b[c]; d.charAt(0) == " ";) d = d.substring(1, d.length);
-                        if (d.indexOf(a) ==
-                            0) return d.substring(a.length, d.length)
-                    }
-                    return null
-                };
-            if (f("inbrowserediting") != "true") {
-                var h, f = f("devicelock");
-                f == "phone" && d ? h = d : f == "tablet" && b && (h = b);
-                if (f != c && !h)
-                    if (window.matchMedia) window.matchMedia("(max-device-width: 415px)").matches && d ? h = d : window.matchMedia("(max-device-width: 960px)").matches && b && a && (h = b);
-                    else {
-                        var c = Math.min(screen.width, screen.height) / (window.devicePixelRatio || 1),
-                            f = window.screen.systemXDPI || 0,
-                            g = window.screen.systemYDPI || 0,
-                            f = f > 0 && g > 0 ? Math.min(screen.width / f, screen.height / g) :
-                            0;
-                        (c <= 370 || f != 0 && f <= 3) && d ? h = d : c <= 960 && b && a && (h = b)
-                    }
-                if (h) document.location = h + (document.location.search || "") + (document.location.hash || ""), document.write('<style type="text/css">body {visibility:hidden}</style>')
-            }
-        })("desktop", "", "phone/bianca-spencer-esp.html");
-
         // Update the 'nojs'/'js' class on the html node
         document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
 
         // Check that all required assets are uploaded and up-to-date
         if (typeof Muse == "undefined") window.Muse = {};
         window.Muse.assets = {
-            "required": ["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "webpro.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.scrolleffects.js", "require.js", "bianca-spencer.css"],
+            "required": ["museutils.js", "museconfig.js", "jquery.musepolyfill.bgsize.js", "jquery.watch.js", "webpro.js", "musewpdisclosure.js", "musewpslideshow.js", "jquery.museoverlay.js", "touchswipe.js", "jquery.scrolleffects.js", "require.js", "tania-and-daniel.css"],
             "outOfDate": []
         };
     </script>
 
-    <link media="only screen and (max-width: 370px)" rel="alternate" href="phone/bianca-spencer-esp.html" />
-    <title>Bianca y Spencer</title>
+    <link rel="canonical" href="http://taniaydaniel.com.mx/tania-and-daniel.html" />
+    <title>Bianca y Spencer </title>
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="css/site_global.css" />
-    <link rel="stylesheet" type="text/css" href="css/bianca-spencer-esp.css" id="pagesheet" />
+    <link rel="stylesheet" type="text/css" href="../css/site_global.css" />
+    <link rel="stylesheet" type="text/css" href="css/master_home-master-eng.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/bianca-spencer.css" id="pagesheet" />
     <!-- IE-only CSS -->
     <!--[if lt IE 9]>
-  <link rel="stylesheet" type="text/css" href="css/iefonts_tania-y-daniel.css?crc=348119298"/>
+  <link rel="stylesheet" type="text/css" href="css/iefonts_tania-and-daniel.css?crc=111601943"/>
   <![endif]-->
     <!-- Other scripts -->
     <script type="text/javascript">
         var __adobewebfontsappname__ = "muse";
     </script>
     <!-- JS includes -->
-    <script src="https://webfonts.creativecloud.com/yeseva-one:n4:default;raleway:n7,n4:default;tenor-sans:n4:default;cantata-one:n4:default;gfs-didot:n4:default;maven-pro:n5,n7:default;montserrat:n4:default.js" type="text/javascript"></script>
+    <script src="https://webfonts.creativecloud.com/cantata-one:n4:default;gfs-didot:n4:default;quattrocento-sans:n4,n7:default;yeseva-one:n4:default;raleway:n7,n4:default;montserrat:n4:default.js" type="text/javascript"></script>
     <!--HTML Widget code-->
 
     <style>
@@ -377,7 +340,7 @@
             overflow: hidden
         }
         
-        body .overlay_u43124 {
+        body .overlay_u45392 {
             background-color: #000000;
             position: fixed;
             left: 0;
@@ -389,11 +352,11 @@
             opacity: 0
         }
         
-        body .overlay_u43124.show {
+        body .overlay_u45392.show {
             opacity: 0.4
         }
         
-        body .theModal_u43124 {
+        body .theModal_u45392 {
             position: fixed;
             top: 50%;
             left: 50%;
@@ -405,7 +368,7 @@
             -webkit-animation-duration: 1s
         }
         
-        body .closeButton_u43124 {
+        body .closeButton_u45392 {
             position: fixed;
             top: 20px;
             right: 20px;
@@ -417,7 +380,7 @@
             cursor: pointer
         }
         
-        body .closeButton_u43124.show {
+        body .closeButton_u45392.show {
             opacity: 1
         }
         
@@ -750,7 +713,7 @@
             overflow: hidden
         }
         
-        body .overlay_u43125 {
+        body .overlay_u45393 {
             background-color: #000000;
             position: fixed;
             left: 0;
@@ -762,11 +725,11 @@
             opacity: 0
         }
         
-        body .overlay_u43125.show {
+        body .overlay_u45393.show {
             opacity: 0.4
         }
         
-        body .theModal_u43125 {
+        body .theModal_u45393 {
             position: fixed;
             top: 50%;
             left: 50%;
@@ -778,7 +741,7 @@
             -webkit-animation-duration: 2s
         }
         
-        body .closeButton_u43125 {
+        body .closeButton_u45393 {
             position: fixed;
             top: 20px;
             right: 20px;
@@ -790,7 +753,7 @@
             cursor: pointer
         }
         
-        body .closeButton_u43125.show {
+        body .closeButton_u45393.show {
             opacity: 1
         }
         
@@ -1123,7 +1086,7 @@
             overflow: hidden
         }
         
-        body .overlay_u43123 {
+        body .overlay_u45391 {
             background-color: #000000;
             position: fixed;
             left: 0;
@@ -1135,11 +1098,11 @@
             opacity: 0
         }
         
-        body .overlay_u43123.show {
+        body .overlay_u45391.show {
             opacity: 0.4
         }
         
-        body .theModal_u43123 {
+        body .theModal_u45391 {
             position: fixed;
             top: 50%;
             left: 50%;
@@ -1151,7 +1114,7 @@
             -webkit-animation-duration: 2s
         }
         
-        body .closeButton_u43123 {
+        body .closeButton_u45391 {
             position: fixed;
             top: 20px;
             right: 20px;
@@ -1163,7 +1126,7 @@
             cursor: pointer
         }
         
-        body .closeButton_u43123.show {
+        body .closeButton_u45391.show {
             opacity: 1
         }
         
@@ -1496,7 +1459,7 @@
             overflow: hidden
         }
         
-        body .overlay_u43103 {
+        body .overlay_u45381 {
             background-color: #000000;
             position: fixed;
             left: 0;
@@ -1508,11 +1471,11 @@
             opacity: 0
         }
         
-        body .overlay_u43103.show {
+        body .overlay_u45381.show {
             opacity: 0.4
         }
         
-        body .theModal_u43103 {
+        body .theModal_u45381 {
             position: fixed;
             top: 50%;
             left: 50%;
@@ -1524,7 +1487,7 @@
             -webkit-animation-duration: 2s
         }
         
-        body .closeButton_u43103 {
+        body .closeButton_u45381 {
             position: fixed;
             top: 20px;
             right: 20px;
@@ -1536,7 +1499,7 @@
             cursor: pointer
         }
         
-        body .closeButton_u43103.show {
+        body .closeButton_u45381.show {
             opacity: 1
         }
         
@@ -1577,16 +1540,60 @@
 
     <div class="clearfix" id="page">
         <!-- group -->
-        <div class="clearfix grpelem" id="pbuttonu43130">
-            <!-- column -->
+        <div class="Button museBGSize rounded-corners como1 clearfix grpelem" id="buttonu45398">
+            <!-- container box -->
+            <img class="colelem" id="u45401-4" alt="MEXICAN BRUNCH" width="273" height="28" src="../images/u45401-4.png?crc=3905861463" data-hidpi-src="../images/u45401-4_2x.png?crc=232144837" />
+            <!-- rasterized frame -->
+            <div class="clearfix colelem" id="u46816-4">
+                <!-- content -->
+                <p>Has been cancelled</p>
+            </div>
+        </div>
+        <div class="Button museBGSize rounded-corners contentcuando clearfix grpelem" id="buttonu45394">
+            <!-- container box -->
+            <p id="u41821-2" style="text-align:center;">- Day Trip -</p>
+            <div class="clearfix colelem" id="pu45396-24">
+                <!-- group -->
+                <div class="clearfix grpelem" id="u45396-24">
+                    <!-- content -->
+                    <p>Jueves 16 de Junio</p>
+                    <p>Hora de salida: 8:00 AM</p>
 
-            <div class="Button museBGSize rounded-corners contentdonde clearfix colelem" id="buttonu43134">
+                    <p>&nbsp;</p>
+
+                    <p>Day trip a la histórica hacienda Porvenir donde tendremos actividades recreativas, incluye transporte, actividades y almuerzo
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+
+                    <p>- Código de Vestimenta -</p>
+                    <p>Casual</p>
+                    <p>&nbsp;</p>
+                </div>
+                <a class="nonblock nontext transition rounded-corners clearfix grpelem" id="u45395-4" href="https://g.page/HaciendaElPorvenir?share" target="_blank">
+                    <!-- content -->
+                    <p>VER MAPA</p>
+                </a>
+                <a class="nonblock nontext transition rounded-corners clearfix grpelem" id="boton" href="../images/Activities.pdf" target="_blank">
+                    <!-- content -->
+                    <p>MÁS INFORMACIÓN</p>
+                </a>
+            </div>
+        </div>
+        <div class="clearfix grpelem" id="pbuttonu45402">
+            <!-- column -->
+            <div class="Button museBGSize rounded-corners contentdonde clearfix colelem" id="buttonu45402">
                 <!-- container box -->
-                <img class="colelem" id="u43854-4" alt="Ceremonia" width="266" src="images/ceremonia-esp.png" data-hidpi-src="images/ceremonia.png" />
+                <p id="titulo" style="text-align:center;">Ceremony and Reception</p>
+
                 <!-- rasterized frame -->
-                <div class="clearfix colelem" id="pu43137-21">
+                <div class="clearfix colelem" id="pu45405-20">
                     <!-- group -->
-                    <div class="clearfix grpelem" id="u43137-21">
+                    <div class="clearfix grpelem" id="u45405-20">
                         <!-- content -->
                         <p>Sábado 18 de Junio</p>
                         <p>Ceremonia 16h00</p>
@@ -1598,438 +1605,508 @@
                         <p>&nbsp;</p>
                         <p>&nbsp;</p>
                         <p>&nbsp;</p>
-
                     </div>
-                    <a class="nonblock nontext transition rounded-corners clearfix grpelem" id="u43135-4" href="https://goo.gl/maps/nwQYqJT55cfPmRgR6" target="_blank">
+                    <a class="nonblock nontext transition rounded-corners clearfix grpelem" id="u45403-4" href="https://goo.gl/maps/nwQYqJT55cfPmRgR6" target="_blank">
                         <!-- content -->
                         <p>VER MAPA</p>
                     </a>
-
-
                 </div>
             </div>
-            <div class="Button museBGSize rounded-corners contentcuando clearfix colelem" id="buttonu43126">
+            <div class="Button museBGSize rounded-corners bancoin clearfix colelem" id="buttonu45382">
                 <!-- container box -->
-
-                <img class="colelem" id="u43136-4" alt="Day Trip" width="30%" src="images/daytrip.png" data-hidpi-src="images/daytrip.png" />
+                <img class="grpelem" id="u45383-36" alt="BANK ACCOUNT: Daniel Ezra Goldstein Address: 10101 Collins Avenue Bal Harbour, 33154 danielgoldstein92@gmail.com HONDURAS - BAC LPS: 730424971 USD: 744376121 EUA – BANK OF AMERICA Account number: 898121426869 Routing numbers: 063100277 (Paper and Electronic) 026009593 (Wires)"
+                    width="249" height="297" src="../images/u45383-36.png?crc=4169750204" data-hidpi-src="../images/u45383-36_2x.png?crc=8293518" />
                 <!-- rasterized frame -->
-                <div class="clearfix colelem" id="pu43127-22">
-                    <!-- group -->
-                    <div class="clearfix grpelem" id="u43127-22">
-                        <!-- content -->
-                        <p>Jueves 16 de Junio</p>
-                        <p>Hora de salida: 8:00 AM</p>
-
-                        <p>&nbsp;</p>
-
-                        <p>Day trip a la histórica hacienda Porvenir donde tendremos actividades recreativas, incluye transporte, actividades y almuerzo
-                        </p>
-                        <p>&nbsp;</p>
-                        <p>&nbsp;</p>
-                        <p>&nbsp;</p>
-                        <p>&nbsp;</p>
-                        <p>&nbsp;</p>
-                        <p>&nbsp;</p>
-
-                        <p>- Código de Vestimenta -</p>
-                        <p>Casual</p>
-                        <p>&nbsp;</p>
-                    </div>
-                    <a class="nonblock nontext transition rounded-corners clearfix grpelem" id="u43128-4" href="https://g.page/HaciendaElPorvenir?share" target="_blank">
-                        <!-- content -->
-                        <p>VER MAPA</p>
-                    </a>
-                    <a class="nonblock nontext transition rounded-corners clearfix grpelem" id="boton" href="images/Activities.pdf">
-                        <!-- content -->
-                        <p>MÁS INFORMACIÓN</p>
-                    </a>
-                </div>
             </div>
-
-            <div class="clearfix colelem" id="u34915-4">
-                <!-- content -->
-                <p>RSVP</p>
-            </div>
-
         </div>
-        <div class="clearfix grpelem" id="pu20771">
+        <div class="clearfix grpelem" id="ppu48742">
             <!-- column -->
-            <div class="browser_width colelem" id="u20771-bw">
-                <div id="u20771">
-                    <!-- column -->
-                    <div class="clearfix" id="u20771_align_to_page">
-                        <div class="clearfix colelem" id="pu38817-4">
-                            <!-- group -->
-                            <a class="nonblock nontext anim_swing navigation-items transition clearfix grpelem" id="u38817-4" href="bianca-spencer.html#boda">
-                                <!-- content -->
-                                <p>BODA</p>
-                            </a>
-                            <a class="nonblock nontext anim_swing navigation-items transition clearfix grpelem" id="u38818-4" href="bianca-spencer.html#hospedaje">
-                                <!-- content -->
-                                <p>HOSPEDAJE</p>
-                            </a>
-                            <a class="nonblock nontext anim_swing navigation-items transition clearfix grpelem" id="u38819-4" href="bianca-spencer.html#recomend">
-                                <!-- content -->
-                                <p>RESTAURANTES</p>
-                            </a>
-                            <a class="nonblock nontext anim_swing navigation-items transition clearfix grpelem" id="u41971-4" href="bianca-spencer.html#transporte">
-                                <!-- content -->
-                                <p>TRANSPORTE</p>
-                            </a>
-                            <a class="nonblock nontext anim_swing navigation-items transition clearfix grpelem" id="u38821-4" href="bianca-spencer.html#regalos">
-                                <!-- content -->
-                                <p>REGALOS</p>
-                            </a>
-                            <a class="nonblock nontext anim_swing navigation-items transition clearfix grpelem" id="u41254-4" href="bianca-spencer.html#covid">
-                                <!-- content -->
-                                <p>COVID</p>
-                            </a>
-                            <a class="nonblock nontext anim_swing navigation-items transition clearfix grpelem" id="u38820-4" href="bianca-spencer.html#rsvp">
-                                <!-- content -->
-                                <p>RSVP</p>
-                            </a>
-                        </div>
-                        <div class="clip_frame colelem" id="u48767">
+            <div class="clearfix colelem" id="pu48742">
+                <!-- group -->
+                <div class="browser_width grpelem" id="u48742-bw">
+                    <div class="clearfix" id="u48742">
+                        <!-- column -->
+                        <div class="clip_frame colelem" id="u48791">
                             <!-- svg -->
-                            <img class="svg" id="u48768" src="images/logo.png" width="136" height="136" alt="" data-mu-svgfallback="images/logo.png" />
+                            <img class="svg" id="u48792" src="../images/logo.png" width="72" height="72" alt="" data-mu-svgfallback="../images/pasted%20svg%20311463x311_poster_.png?crc=3946498568" />
                         </div>
-                        <div class="clearfix colelem" id="pu38844-6">
-                            <!-- group -->
-                            <div class="clearfix grpelem" id="u38844-6">
-                                <!-- content -->
-                                <p>¡Bienvenidos a nuestra página de bodas! ¡Estamos encantados de celebrar este día especial en la ciudad natal de Bianca, Quito - Ecuador, con nuestra gente favorita! </p>
 
-                            </div>
-                            <div class="clearfix grpelem" id="u38857-10">
-                                <!-- content -->
+
+                        <!-- group -->
+                        <center>
+                            <div class="clearfix colelem" id="inicio">
+
+                                <p id="u45378-2" style="font-size: 20px">Bianca &amp; Spencer</p>
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
+                                <p>¡Bienvenidos a nuestra página de bodas! ¡Estamos encantados de celebrar este día especial en la ciudad natal de Bianca, Quito - Ecuador, con nuestra gente favorita! </p>
                                 <p>&nbsp;</p>
                                 <p>18 de Junio del 2022, Quinta La Guardia, Quito, Ecuador</p>
+                                <p>&nbsp;</p>
+                                <p>&nbsp;</p>
 
                             </div>
-                        </div>
+                            <img class="colelem" height="auto" width="100%" src="../images/5 - phone.jpeg" data-hidpi-src="../images/5 - phone.jpeg" />
+                        </center>
 
-                        <img class="colelem" id="u38834-18" alt="" width="800" height="auto" src="images/5.jpeg" data-hidpi-src="images/5.jpeg" />
-
-                        <!-- rasterized frame -->
-                    </div>
-                </div>
-            </div>
-
-            <div class="browser_width colelem" id="u43014-bw">
-                <div class="museBGSize" id="u43014">
-
-                    <div class="clearfix" id="u43014_align_to_page">
-                        <img class="colelem" id="u43026-4" alt="" width="auto" height="61" src="images/letras2.png" data-hidpi-src="images/letras2.png" />
-
-                        <div class="clearfix colelem" id="u43029-13" style="color:black">
-
-                            <p>Después de algunas bromas en español a finales de 2016, se intercambiaron números de teléfono. Pasaron unos meses, y Spencer & Bianca se cruzaron nuevamente y planearon verse en un restaurante local en Boca Raton. Ambos iban
-                                acompañados de sus amigos esa noche pero no dejaron de hablar entre ellos.</p>
-                            <p>La energía siguió fluyendo, muchas risas, historias en spanglish, compartir experiencias de viaje que ambos disfrutaron, y hubo una chispa inmediata que encendió este fuego de amor.
-                            </p>
-                            <p>Había una conexión especial entre ellos, y su relación siguió expandiéndose y comenzó su torbellino de romance. Spencer & Bianca comparten muchos intereses comunes como viajes, cultura y atletismo; Empezaron a hacer más cosas
-                                juntos. Con el paso del tiempo, su relación se expandió en todos los sentidos. Se mudaron juntos y dieron la bienvenida a un cachorrito en sus vidas. Esto hizo que su relación fuera aún más fuerte.
-                            </p>
-                            <p>Los dos viajaron por el mundo y comenzaron a experimentar diferentes deportes como esquí, senderismo, ciclismo, yoga, tenis y paseos a caballo. El tenis tiene un papel muy especial en sus vidas. Su primera cita fue en las canchas
-                                de tenis, poco después Spencer propuso matrimonio en las canchas de tenis. Bianca dijo que sí, y ahora están muy emocionados por su próximo capítulo juntos y están encantados de poder celebrar su amor con sus amigos y familiares.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="browser_width colelem" id="u38879-bw">
-                <div class="museBGSize" id="u38879">
-                    <!-- column -->
-                    <div>&nbsp;</div>
-                    <div>&nbsp;</div>
-                    <div>&nbsp;</div>
-                    <div>&nbsp;</div>
-                    <div class="clearfix" id="u38879_align_to_page">
-                        <a class="anchor_item colelem" id="boda"></a>
-                        <div class="cuando rounded-corners clearfix colelem" id="u41821-6">
-                            <!-- content -->
-                            <p id="u41821-2">DAY TRIP</p>
-                            <p id="u41821-4">Jueves 16 de Junio del 2022</p>
-                        </div>
-                        <div>
-                            <p>&nbsp;</p>
-                        </div>
-                        <div>
-                            <p>&nbsp;</p>
-                        </div>
-                        <div class="donde rounded-corners clearfix colelem" id="u41822-6">
-                            <!-- content -->
-                            <p id="u41822-2">CEREMONIA Y RECEPCIÓN</p>
-                            <p id="u41822-4"><span id="u41822-3">Sábado 18 de Junio del 2022</span></p>
-                        </div>
 
                     </div>
                 </div>
-            </div>
-            <div class="browser_width colelem" id="u34036-bw">
-                <div class="museBGSize" id="u34036">
-                    <!-- column -->
-                    <div class="clearfix" id="u34036_align_to_page">
-                        <div class="position_content" id="u34036_position_content">
-                            <a class="anchor_item colelem" id="hospedaje"></a>
-                            <div class="clearfix colelem" id="u43035-4">
+                <div class="browser_width grpelem" id="accordionu47025-bw">
+                    <ul class="AccordionWidget clearfix" id="accordionu47025">
+                        <!-- vertical box -->
+                        <li class="AccordionPanel clearfix colelem100" id="u47026">
+                            <!-- vertical box -->
+                            <div class="AccordionPanelTab transition clearfix colelem100" id="u47037-3">
                                 <!-- content -->
-                                <p id="u41821-2">Ecuador</p>
-                                <p>Ecuador es un país con una vasta e inigualable riqueza natural y cultural. La diversidad de sus cuatro regiones ha dado lugar a cientos de miles de especies de flora y fauna. Tiene alrededor de 1640 clases de aves. Mariposa
-                                    especies bordean 4.500, reptiles 345, anfibios 358 y mamíferos 258, entre otras.
-                                </p>
+                                <div id="u47037-2">
+                                    <p>&nbsp;</p>
+                                </div>
+                            </div>
+                            <div class="AccordionPanelContent disn nav-content-wrapper clearfix colelem100" id="u47027">
+                                <!-- group -->
+                                <div class="clearfix grpelem" id="u47028">
+                                    <!-- column -->
+                                    <a class="nonblock nontext anim_swing nav-links1 transition clearfix colelem" id="u47031-4" href="bianca-spencer.html#home">
+                                        <!-- content -->
+                                        <div id="u47031-3">
+                                            <p class="nav-links" id="u47031-2">HOME</p>
+                                        </div>
+                                    </a>
+                                    <!--<a class="nonblock nontext anim_swing nav-links1 transition clearfix colelem" id="u47034-4" href="tania-and-daniel.html#getting">
+                                        content 
+                                        <div id="u47034-3">
+                                            <p class="nav-links" id="u47034-2">GETTING THERE</p>
+                                        </div>
+                                    </a>-->
+                                    <a class="nonblock nontext anim_swing nav-links1 transition clearfix colelem" id="u47035-4" href="bianca-spencer.html#itinerary">
+                                        <!-- content -->
+                                        <div id="u47035-3">
+                                            <p class="nav-links" id="u47035-2">BODA</p>
+                                        </div>
+                                    </a>
 
-                                <p>&nbsp;</p>
-                                <p id="u41821-2">Viaja en Ecuador</p>
-                                <p style="font-weight: 400;">Hemos reunido los mejores paquetes para que pueda viajar por el hermoso Ecuador. La agencia de viajes estará a su servicio. ¡Espero que le guste tanto como a nosotros!</p>
-                                <p>&nbsp;</p>
-                                <a class="nonblock nontext transition rounded-corners clearfix grpelem" id="tour" href="https://paquetes.speedtravel.com.ec/" target="_blank">
-                                    <!-- content -->
-                                    <p>TOURS</p>
-                                </a>
-                                <p>&nbsp;</p>
-                                <p>&nbsp;</p>
-                                <p>&nbsp;</p>
-                                <center>
-                                    <img src="images/carr1.jpg" id="carr1">
-                                    <img src="images/carr2.jpg" id="carr2">
-                                    <img src="images/carr3.jpg" id="carr1">
-                                    <img src="images/carr4.webp" id="carr2">
+                                    <a class="nonblock nontext anim_swing nav-links1 transition clearfix colelem" id="u47032-4" href="bianca-spencer.html#book">
+                                        <!-- content -->
+                                        <div id="u47032-3">
+                                            <p class="nav-links" id="u47032-2">HOSPEDAJE</p>
+                                        </div>
+                                    </a>
+                                    <a class="nonblock nontext anim_swing nav-links1 transition clearfix colelem" id="u47084-4" href="bianca-spencer.html#transportation">
+                                        <!-- content -->
+                                        <div id="u47084-3">
+                                            <p class="nav-links" id="u47084-2">RECOMENDACIONES</p>
+                                        </div>
+                                    </a>
+                                    <a class="nonblock nontext anim_swing nav-links1 transition clearfix colelem" id="u47029-4" href="bianca-spencer.html#gifts">
+                                        <!-- content -->
+                                        <div id="u47029-3">
+                                            <p class="nav-links" id="u47029-2">REGALOS</p>
+                                        </div>
+                                    </a>
+                                    <a class="nonblock nontext anim_swing nav-links1 transition clearfix colelem" id="u47030-4" href="bianca-spencer.html#coviden">
+                                        <!-- content -->
+                                        <div id="u47030-3">
+                                            <p class="nav-links" id="u47030-2">COVID - 19</p>
+                                        </div>
+                                    </a>
+                                    <a class="nonblock nontext anim_swing nav-links1 transition clearfix colelem" id="u47033-4" href="bianca-spencer.html#rsvpen">
+                                        <!-- content -->
+                                        <div id="u47033-3">
+                                            <p class="nav-links-hover" id="u47033-2">RSVP</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div style="color:gray;" class="museBGSize grpelem" id="u47038">
+                    <!-- custom html -->
 
-                                </center>
+
+                </div>
+                <a class="anchor_item grpelem" id="home"></a>
+                <a class="anchor_item grpelem" id="getting"></a>
+            </div>
+            <div class="browser_width colelem" id="u45096-bw">
+                <div class="museBGSize clearfix" id="u45096">
+                    <!-- column -->
+                    <img class="colelem" id="u46050-4" alt="GETTING THERE" width="268" height="61" src="../images/letras2.png" data-hidpi-src="../images/letras2.png" />
+                    <!-- rasterized frame -->
+                    <div class="clearfix colelem" id="u45164-17">
+                        <!-- content -->
+                        <p>Después de algunas bromas en español a finales de 2016, se intercambiaron números de teléfono. Pasaron unos meses, y Spencer & Bianca se cruzaron nuevamente y planearon verse en un restaurante local en Boca Raton. Ambos iban acompañados
+                            de sus amigos esa noche pero no dejaron de hablar entre ellos.</p>
+                        <p>La energía siguió fluyendo, muchas risas, historias en spanglish, compartir experiencias de viaje que ambos disfrutaron, y hubo una chispa inmediata que encendió este fuego de amor.
+                        </p>
+                        <p>Había una conexión especial entre ellos, y su relación siguió expandiéndose y comenzó su torbellino de romance. Spencer & Bianca comparten muchos intereses comunes como viajes, cultura y atletismo; Empezaron a hacer más cosas juntos.
+                            Con el paso del tiempo, su relación se expandió en todos los sentidos. Se mudaron juntos y dieron la bienvenida a un cachorrito en sus vidas. Esto hizo que su relación fuera aún más fuerte.
+                        </p>
+                        <p>Los dos viajaron por el mundo y comenzaron a experimentar diferentes deportes como esquí, senderismo, ciclismo, yoga, tenis y paseos a caballo. El tenis tiene un papel muy especial en sus vidas. Su primera cita fue en las canchas
+                            de tenis, poco después Spencer propuso matrimonio en las canchas de tenis. Bianca dijo que sí, y ahora están muy emocionados por su próximo capítulo juntos y están encantados de poder celebrar su amor con sus amigos y familiares.
+                        </p>
+                    </div>
+                    <a class="anchor_item colelem" id="itinerary"></a>
+                </div>
+            </div>
+            <div class="browser_width colelem" id="u45104-bw">
+                <div class="museBGSize clearfix" id="u45104">
+                    <!-- column -->
+                    <div class="cuando rounded-corners clearfix colelem" id="u45378-6">
+                        <!-- content -->
+                        <p id="u45378-2">DAY TRIP</p>
+                        <p id="u45378-4">Jueves 16 de Junio del 2022</p>
+                    </div>
+                    <div class="donde rounded-corners clearfix colelem" id="u45379-6">
+                        <!-- content -->
+                        <p id="u45379-2">CEREMONIA Y RECEPCIÓN</p>
+                        <p id="u45379-4">Sábado 18 de Junio del 2022</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="browser_width colelem" id="u45105-bw">
+                <div class="museBGSize clearfix" id="u45105">
+                    <!-- column -->
+                    <div class="position_content" id="u45105_position_content">
+                        <a class="anchor_item colelem" id="book"></a>
+                        <div class="clearfix colelem" id="u45165-4">
+                            <!-- content -->
+                            <p id="u41821-2">Ecuador</p>
+                            <p style="font-weight: 400;">Ecuador es un país con una vasta e inigualable riqueza natural y cultural. La diversidad de sus cuatro regiones ha dado lugar a cientos de miles de especies de flora y fauna. Tiene alrededor de 1640 clases de aves. Mariposa
+                                especies bordean 4.500, reptiles 345, anfibios 358 y mamíferos 258, entre otras. </p>
+                            <p>&nbsp;</p>
+                            <p id="u41821-2">Viaja en Ecuador</p>
+                            <p style="font-weight: 400;">Hemos reunido los mejores paquetes para que pueda viajar por el hermoso Ecuador. La agencia de viajes estará a su servicio. ¡Espero que le guste tanto como a nosotros!</p>
+                            <p>&nbsp;</p>
+
+                            <center>
+                                <img src="../images/carr1.jpg" id="carr1">
+                                <img src="../images/carr2.jpg" id="carr2">
+                                <img src="../images/carr3.jpg" id="carr1">
+                                <img src="../images/carr4.webp" id="carr2">
+
+                            </center>
+
+                            <a class="nonblock nontext transition rounded-corners clearfix grpelem" id="tour" href="https://paquetes.speedtravel.com.ec/" target="_blank">
+                                <!-- content -->
+                                <p>TOURS</p>
+                            </a>
+                        </div>
+                        <a class="nonblock nontext clip_frame ose_pre_init colelem" id="u45371" href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1632353818047&key=GRP&app=resvlink">
+                            <!-- image --><img id="u45371_img" src="../images/jwMarriot.jpg" data-hidpi-src="../images/jwMarriot.jpg" alt="" width="255" height="342" />
+                        </a>
+                        <a class="nonblock nontext colelem" id="u45173-12" href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1632353818047&key=GRP&app=resvlink">
+                            <!-- rasterized frame --><img id="u45173-12_img" alt="" width="auto" height="130" src="../images/Marriot-esp.png" data-hidpi-src="../images/Marriot-esp.png" />
+                        </a>
+                        <a class="nonblock nontext transition rounded-corners clearfix colelem" id="u45368-4" href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1632353818047&key=GRP&app=resvlink" target="_blank">
+                            <!-- content -->
+                            <p>RESERVA</p>
+                        </a>
 
 
+                    </div>
+                </div>
+            </div>
 
-                                <p>&nbsp;</p>
-                                <p>&nbsp;</p>
-                                <p>&nbsp;</p>
-                                <p id="u41821-2">Hospedaje</p>
+            <div class="browser_width colelem" id="u45094-bw">
+                <div class="museBGSize clearfix" id="u45094">
+                    <!-- column -->
+                    <p id="titulo" style="text-align:center;">- Restaurantes -</p>
+                    <!-- rasterized frame -->
+                    <div class="clearfix colelem" id="pu45097-5">
+                        <!-- group -->
+                        <div class="clearfix grpelem" id="u45097-5">
+                            <!-- content -->
+                            <p id="u45097">&nbsp;</p>
+                            <p id="u45097-3">NUEMA</p>
+                        </div>
+                        <div class="clearfix grpelem" id="pamphletu48491">
+                            <!-- none box -->
+                            <div class="clearfix grpelem" id="u48508">
+                                <!-- none box -->
+
 
                             </div>
+                            <div class="popup_anchor" id="u48492popup">
+                                <div class="ContainerGroup clearfix" id="u48492">
+                                    <!-- stack box -->
 
-                            <div class="clearfix colelem" id="pu39888">
-                                <!-- group -->
-                                <a class="nonblock nontext clip_frame ose_pre_init grpelem" id="u39833" href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1632353818047&key=GRP&app=resvlink">
-                                    <!-- image --><img class="block" id="u39833_img" src="images/jwMarriot.jpg" data-hidpi-src="images/jwMarriot.jpg" alt="" width="254" height="341" />
-                                </a>
+
+
+
+                                    <div class="Container invi museBGSize rounded-corners clearfix grpelem" id="u48502">
+                                        <!-- group -->
+                                        <div class="pointer_cursor clearfix grpelem" id="u48503">
+                                            <!-- group -->
+                                            <a class="block" href="https://nuema.ec">
+                                                <!-- Block link tag -->
+                                            </a>
+                                            <a class="nonblock nontext clearfix grpelem" id="u48504-13" href="https://nuema.ec">
+                                                <!-- content -->
+                                                <p class="S001---Caption" id="u48504-2"><span id="u48504">Nuema</span></p>
+                                                <p class="S001---Caption" id="u48504-3">&nbsp;</p>
+                                                <p class="S001---Caption" id="u48504-4">&nbsp;</p>
+                                                <p class="S001---Caption" id="u48504-5">&nbsp;</p>
+                                                <p class="S001---Caption" id="u48504-7">Punín N. E1-44 y Juan Pío Montufar</p>
+                                                <p class="S001---Caption" id="u48504-9">Quito, Ecuador.
+                                                </p>
+                                                <p class="S001---Caption" id="u48504-11">Clasificado 48 en los 50 mejores restaurantes de América Latina</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="clearfix colelem" id="pu39882-12">
-                                <!-- group -->
-                                <a class="nonblock nontext grpelem" id="u39812-14" href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1632353818047&key=GRP&app=resvlink">
-                                    <!-- rasterized frame --><img id="u39812-14_img" alt="JWMarriot" width="306" height="185" src="images/Marriot-esp.png" data-hidpi-src="images/Marriot-esp.png" />
-                                </a>
+                        </div>
+                    </div>
+                    <div class="clearfix colelem" id="pu45099-5">
+                        <!-- group -->
+                        <div class="clearfix grpelem" id="u45099-5">
+                            <!-- content -->
+                            <p id="u45099">&nbsp;</p>
+                            <p id="u45099-3">CIRE</p>
+                        </div>
+                        <div class=" clearfix grpelem" id="pamphletu50496">
+                            <!-- none box -->
+                            <div class=" clearfix grpelem" id="u50503">
+                                <!-- none box -->
+
                             </div>
-                            <div class="clearfix colelem" id="pu39885-4">
-                                <!-- group -->
+                            <div class="popup_anchor" id="u50515popup">
+                                <div class="ContainerGroup clearfix" id="u50515">
+                                    <div class="pointer_cursor Container invi museBGSize rounded-corners clearfix grpelem" id="u50537">
+                                        <!-- group -->
+                                        <a class="block" target="_blank" href="https://www.cirefood.com/2021/">
+                                            <!-- Block link tag -->
+                                        </a>
+                                        <div class="pointer_cursor clearfix grpelem" id="u50539">
+                                            <!-- group -->
+                                            <a class="block" href="https://www.cirefood.com/2021/">
+                                                <!-- Block link tag -->
+                                            </a>
+                                            <a class="nonblock nontext clearfix grpelem" id="u50538-13" href="https://www.cirefood.com/2021/">
+                                                <!-- content -->
+                                                <p class="S001---Caption" id="u50538-2"><span id="u50538">Cire</span>
+                                                </p>
+                                                <p class="S001---Caption" id="u50538-3">&nbsp;</p>
+                                                <p class="S001---Caption" id="u50538-4">&nbsp;</p>
+                                                <p class="S001---Caption" id="u50538-5">&nbsp;</p>
+                                                <p class="S001---Caption" id="u50538-7">Garcia Moreno 425 y Manabí Cumbayá EC170157
+                                                </p>
+                                                <p class="S001---Caption" id="u50538-9">Quito, Ecuador.</p>
+                                                <p class="S001---Caption" id="u50538-11">Cocina Ecuatoriana Progresiva Recetas originales de autor.</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix colelem" id="pu45102-5">
+                        <!-- group -->
+                        <div class="clearfix grpelem" id="u45102-5">
+                            <!-- content -->
+                            <p id="u45102">&nbsp;</p>
+                            <p id="u45102-3">SOMOS</p>
+                        </div>
+                        <div class=" clearfix grpelem" id="pamphletu48462">
+                            <!-- none box -->
+                            <div class=" clearfix grpelem" id="u48465">
+                                <!-- none box -->
 
-                                <a class="nonblock nontext transition rounded-corners clearfix grpelem" id="u39843-4" href="https://www.marriott.com/event-reservations/reservation-link.mi?id=1632353818047&key=GRP&app=resvlink" target="_blank">
-                                    <!-- content -->
-                                    <p>RESERVACIÓN</p>
-                                </a>
+                            </div>
+                            <div class="popup_anchor" id="u48473popup">
+                                <div class="ContainerGroup clearfix" id="u48473">
+                                    <!-- stack box -->
 
+
+                                    <div class="pointer_cursor Container invi museBGSize rounded-corners clearfix grpelem" id="u48474">
+                                        <!-- group -->
+                                        <a class="block" target="_blank" href="https://es.somos.rest">
+                                            <!-- Block link tag -->
+                                        </a>
+                                        <div class="pointer_cursor clearfix grpelem" id="u48475">
+                                            <!-- group -->
+                                            <a class="block" href="https://es.somos.rest">
+                                                <!-- Block link tag -->
+                                            </a>
+                                            <a class="nonblock nontext clearfix grpelem" id="u48476-11" href="https://es.somos.rest">
+                                                <!-- content -->
+                                                <p class="S001---Caption" id="u48476-2"><span id="u48476">SOMOS</span></p>
+                                                <p class="S001---Caption" id="u48476-3">&nbsp;</p>
+                                                <p class="S001---Caption" id="u48476-5">N34-421 Av. Eloy Alfaro y Av. Portugal
+                                                </p>
+                                                <p class="S001---Caption" id="u48476-7">Barrio Bellavista, Quito.</p>
+                                                <p class="S001---Caption" id="u48476-9">Cocina ecuatoriana contemporánea</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix colelem" id="pu45101-5">
+                        <!-- group -->
+                        <div class="clearfix grpelem" id="u45101-5">
+                            <!-- content -->
+                            <p id="u45101">&nbsp;</p>
+                            <p id="u45101-3">QUITU</p>
+                        </div>
+                        <div class=" clearfix grpelem" id="pamphletu45241">
+                            <!-- none box -->
+                            <div class=" clearfix grpelem" id="u45244">
+                                <!-- none box -->
+
+                            </div>
+                            <div class="popup_anchor" id="u45249popup">
+                                <div class="ContainerGroup clearfix" id="u45249">
+                                    <!-- stack box -->
+
+                                    <div class="pointer_cursor Container invi museBGSize rounded-corners clearfix grpelem" id="u45253">
+                                        <!-- group -->
+                                        <a class="block" target="_blank" href="https://quitu.ec">
+                                            <!-- Block link tag -->
+                                        </a>
+                                        <div class="pointer_cursor clearfix grpelem" id="u45255">
+                                            <!-- group -->
+                                            <a class="block" href="https://quitu.ec">
+                                                <!-- Block link tag -->
+                                            </a>
+                                            <a class="nonblock nontext clearfix grpelem" id="u45254-11" href="https://quitu.ec">
+                                                <!-- content -->
+                                                <p class="S001---Caption" id="u45254-2"><span id="u45254">Quitu</span></p>
+                                                <p class="S001---Caption" id="u45254-3">&nbsp;</p>
+                                                <p class="S001---Caption" id="u45254-5">Toledo N24-492 and Francisco Salazar
+                                                </p>
+                                                <p class="S001---Caption" id="u45254-7">La Floresta, Quito.</p>
+                                                <p class="S001---Caption" id="u45254-9">Menú combina ingredientes ancestrales de nuestra tierra, elaborados con modernas técnicas de cocina.</p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix colelem" id="pu45100-5">
+                        <!-- group -->
+                        <div class="clearfix grpelem" id="u45100-5">
+                            <!-- content -->
+                            <p id="u45100">&nbsp;</p>
+                            <p id="u45100-3">NOE SUSHI BAR</p>
+                        </div>
+                        <div class=" clearfix grpelem" id="pamphletu45224">
+                            <!-- none box -->
+                            <div class=" clearfix grpelem" id="u45234">
+                                <!-- none box -->
+
+                            </div>
+                            <div class="popup_anchor" id="u45227popup">
+                                <div class="ContainerGroup clearfix" id="u45227">
+                                    <!-- stack box -->
+
+                                    <div class="pointer_cursor Container invi museBGSize rounded-corners clearfix grpelem" id="u45231">
+                                        <!-- group -->
+                                        <a class="block" target="_blank" href="https://www.noesushibar.com">
+                                            <!-- Block link tag -->
+                                        </a>
+                                        <div class="pointer_cursor clearfix grpelem" id="u45233">
+                                            <!-- group -->
+                                            <a class="block" href="https://www.noesushibar.com">
+                                                <!-- Block link tag -->
+                                            </a>
+                                            <a class="nonblock nontext clearfix grpelem" id="u45232-9" href="https://www.noesushibar.com">
+                                                <!-- content -->
+                                                <p class="S001---Caption" id="u45232-2"><span id="u45232">NOE SUSHI BAR</span></p>
+                                                <p class="S001---Caption" id="u45232-3">&nbsp;</p>
+                                                <p class="S001---Caption" id="u45232-5">Manabi 255 y Parque Orellana, parque central de Cumbaya</p>
+                                                <p class="S001---Caption" id="u45254-7">Quito.</p>
+                                                <p class="S001---Caption" id="u45254-9">Fusiona de manera extraordinaria la cocina tradicional japonesa con el paladar ecuatoriano.
+                                                </p>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix colelem" id="pu45098-5">
+                        <!-- group -->
+                        <div class="clearfix grpelem" id="u45098-5">
+                            <!-- content -->
+                            <p id="u45098">&nbsp;</p>
+                            <p id="u45098-3">OSAKA</p>
+                        </div>
+                        <div class=" clearfix grpelem" id="pamphletu45312">
+                            <!-- none box -->
+                            <div class=" clearfix grpelem" id="u45313">
+                                <!-- none box -->
+
+                            </div>
+                            <div class="popup_anchor" id="u45328popup">
+                                <div class="ContainerGroup clearfix" id="u45328">
+                                    <!-- stack box -->
+
+                                    <div class="pointer_cursor Container invi museBGSize rounded-corners clearfix grpelem" id="u45356">
+                                        <!-- group -->
+                                        <a class="block" target="_blank" href="https://osakanikkei.com/es/local/quito">
+                                            <!-- Block link tag -->
+                                        </a>
+                                        <a class="nonblock nontext clearfix grpelem" id="u45357">
+                                            <!-- group -->
+                                            <div class="S001---Caption clearfix grpelem" id="u45358-7">
+                                                <!-- content -->
+                                                <p id="u45358-2"><span id="u45358">Osaka</span></p>
+                                                <p id="u45358-3">&nbsp;</p>
+                                                <p id="u45358-5">Isabel la Católica y Francisco Salazar e12-17</p>
+                                                <p class="S001---Caption" id="u45254-7">Quito.</p>
+                                                <p class="S001---Caption" id="u45254-9">Restaurante de comida Nikkei con buen ambiente, buen bar de cócteles.
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
 
 
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="clearfix colelem" id="pu20782">
-                <!-- group -->
-                <div class="browser_width grpelem" id="u20782-bw">
-                    <div class="museBGSize" id="u20782">
-                        <!-- column -->
-                        <div class="clearfix" id="u20782_align_to_page">
-
-                            <center>
-                                <p id="u41821-2">Restaurantes</p>
-                            </center>
-                            <div class="colelem" id="u34033">
-                                <!-- simple frame -->
-                            </div>
-
-                            <div class="clearfix colelem" id="ppu39071-5">
-                                <!-- group -->
-
-                                <div class="clearfix grpelem" id="u39071-5">
-                                    <!-- content -->
-                                    <p id="u39071">&nbsp;</p>
-                                    <p id="u39071-3">NUEMA</p>
-
-                                    <div class="pointer_cursor Container museBGSize rounded-corners clearfix grpelem" id="nuema">
-                                        <div class="ContainerGroup clearfix" id="u41339">
-
-                                            <!-- group -->
-                                            <a class="block" href="https://nuema.ec" target="_blank">
-                                                <!-- Block link tag -->
-                                            </a>
-                                            <a class="nonblock nontext clearfix grpelem" id="u39421-11" href="https://nuema.ec" target="_blank">
-                                                <!-- content -->
-                                                <p class="S001---Caption" id="u39421-2"><span id="u39421">Nuema</span></p>
-                                                <p class="S001---Caption" id="u39421-3">&nbsp;</p>
-                                                <p class="S001---Caption" id="u39421-5">Punín N. E1-44 and Juan Pío Montufar</p>
-                                                <p class="S001---Caption" id="u39421-7">Quito, Ecuador.</p>
-                                                <p class="S001---Caption" id="u39421-9">Clasificado 48 en los 50 mejores restaurantes de América Latina</p>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
+                    <div class="clearfix colelem">
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
 
 
-
-
-
-                                <div class="clearfix grpelem" id="u39071-5">
-                                    <!-- content -->
-                                    <p id="u39071">&nbsp;</p>
-                                    <p id="u39071-3">CIRE</p>
-                                    <div class="pointer_cursor Container museBGSize rounded-corners clearfix grpelem" id="cire">
-                                        <div class="ContainerGroup clearfix" id="u41339">
-
-                                            <!-- group -->
-                                            <a class="block" href="https://www.cirefood.com/2021/" target="_blank">
-                                                <!-- Block link tag -->
-                                            </a>
-                                            <a class="nonblock nontext clearfix grpelem" id="u39421-11" href="https://www.cirefood.com/2021/" target="_blank">
-                                                <!-- content -->
-                                                <p class="S001---Caption" id="u39421-2"><span id="u39421">CIRE</span></p>
-                                                <p class="S001---Caption" id="u39421-3">&nbsp;</p>
-                                                <p class="S001---Caption" id="u39421-5">Garcia Moreno 425 y Manabí Cumbayá EC170157</p>
-                                                <p class="S001---Caption" id="u39421-7">Quito, Ecuador.</p>
-                                                <p class="S001---Caption" id="u39421-9">Cocina Ecuatoriana Progresiva Recetas originales de autor.
-
-                                                </p>
-                                            </a>
-                                        </div>
-                                    </div>
-
-                                </div>
-
-                                <div class="clearfix grpelem" id="u39071-5">
-                                    <!-- content -->
-                                    <p id="u39071">&nbsp;</p>
-                                    <p id="u39071-3">SOMOS</p>
-                                    <div class="pointer_cursor Container museBGSize rounded-corners clearfix grpelem" id="somos">
-                                        <div class="ContainerGroup clearfix" id="u41339">
-
-                                            <!-- group -->
-                                            <a class="block" href="https://es.somos.rest" target="_blank">
-                                                <!-- Block link tag -->
-                                            </a>
-                                            <a class="nonblock nontext clearfix grpelem" id="u39421-11" href="https://es.somos.rest" target="_blank">
-                                                <!-- content -->
-                                                <p class="S001---Caption" id="u39421-2"><span id="u39421">SOMOS</span></p>
-                                                <p class="S001---Caption" id="u39421-3">&nbsp;</p>
-                                                <p class="S001---Caption" id="u39421-5">N34-421 Av. Eloy Alfaro y Av. Portugal</p>
-                                                <p class="S001---Caption" id="u39421-7">Barrio Bellavista, Quito.</p>
-                                                <p class="S001---Caption" id="u39421-9">Cocina ecuatoriana contemporánea</p>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="clearfix colelem" id="ppu39071-5">
-                                <div class="clearfix grpelem" id="u39071-5">
-                                    <!-- content -->
-                                    <p id="u39071">&nbsp;</p>
-                                    <p id="u39071-3">QUITU</p>
-                                    <div class="pointer_cursor Container museBGSize rounded-corners clearfix grpelem" id="quitu">
-                                        <div class="ContainerGroup clearfix" id="u41339">
-
-                                            <!-- group -->
-                                            <a class="block" href="https://quitu.ec" target="_blank">
-                                                <!-- Block link tag -->
-                                            </a>
-                                            <a class="nonblock nontext clearfix grpelem" id="u39421-11" href="https://quitu.ec" target="_blank">
-                                                <!-- content -->
-                                                <p class="S001---Caption" id="u39421-2"><span id="u39421">QUITU</span></p>
-                                                <p class="S001---Caption" id="u39421-3">&nbsp;</p>
-                                                <p class="S001---Caption" id="u39421-5">Toledo N24-492 and Francisco Salazar</p>
-                                                <p class="S001---Caption" id="u39421-7">La Floresta, Quito.</p>
-                                                <p class="S001---Caption" id="u39421-9">Menú combina ingredientes ancestrales de nuestra tierra, elaborados con modernas técnicas de cocina.</p>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="clearfix grpelem" id="u39071-5">
-                                    <!-- content -->
-                                    <p id="u39071">&nbsp;</p>
-                                    <p id="u39071-3">NOE SUSHI BAR</p>
-                                    <div class="pointer_cursor Container museBGSize rounded-corners clearfix grpelem" id="noe">
-                                        <div class="ContainerGroup clearfix" id="u41339">
-
-                                            <!-- group -->
-                                            <a class="block" href="https://www.noesushibar.com" target="_blank">
-                                                <!-- Block link tag -->
-                                            </a>
-                                            <a class="nonblock nontext clearfix grpelem" id="u39421-11" href="https://www.noesushibar.com" target="_blank">
-                                                <!-- content -->
-                                                <p class="S001---Caption" id="u39421-2"><span id="u39421">NOE SUSHI BAR</span></p>
-                                                <p class="S001---Caption" id="u39421-3">&nbsp;</p>
-                                                <p class="S001---Caption" id="u39421-5">Manabi 255 y Parque Orellana, parque central de Cumbaya</p>
-                                                <p class="S001---Caption" id="u39421-7">Quito.</p>
-                                                <p class="S001---Caption" id="u39421-9">Fusiona de manera extraordinaria la cocina tradicional japonesa con el paladar ecuatoriano.</p>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="clearfix grpelem" id="u39071-5">
-                                    <!-- content -->
-                                    <p id="u39071">&nbsp;</p>
-                                    <p id="u39071-3">OSAKA</p>
-                                    <div class="pointer_cursor Container museBGSize rounded-corners clearfix grpelem" id="osaka">
-                                        <div class="ContainerGroup clearfix" id="u41339">
-
-                                            <!-- group -->
-                                            <a class="block" href="https://osakanikkei.com/es/local/quito" target="_blank">
-                                                <!-- Block link tag -->
-                                            </a>
-                                            <a class="nonblock nontext clearfix grpelem" id="u39421-11" href="https://osakanikkei.com/es/local/quito" target="_blank">
-                                                <!-- content -->
-                                                <p class="S001---Caption" id="u39421-2"><span id="u39421">OSAKA</span></p>
-                                                <p class="S001---Caption" id="u39421-3">&nbsp;</p>
-                                                <p class="S001---Caption" id="u39421-5">Isabel la Católica y Francisco Salazar e12-17</p>
-                                                <p class="S001---Caption" id="u39421-7">Quito.</p>
-                                                <p class="S001---Caption" id="u39421-9">Restaurante de comida Nikkei con buen ambiente, buen bar de cócteles.
-                                                </p>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <center>
-                                <img id="foto" src="images/11.jpg" height="600px" width="auto">
-                            </center>
-
-
-
-                        </div>
+                        <center>
+                            <img id="foto" src="../images/9.jpeg" height="auto" width="100%">
+                        </center>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </div>
                 </div>
-                <a class="anchor_item grpelem" id="recomend"></a>
-
-                <a class="anchor_item grpelem" id="transporte"></a>
             </div>
-            <div class="clearfix colelem" id="pu41913-4">
+
+            <div class="clearfix colelem" id="pu46053">
+                <a class="anchor_item grpelem" id="transportation"></a>
+            </div>
+            <div class="clearfix colelem" id="pu45093-4">
                 <!-- group -->
-                <div class="museBGSize rounded-corners clearfix grpelem" id="u41913-4">
-                    <!-- content -->
-                    <p id="u41913">&nbsp;</p>
-                    <p id="u41913-2">&nbsp;</p>
+                <div class="browser_width grpelem" id="u45093-4-bw">
+                    <div class="museBGSize clearfix" id="u45093-4">
+                        <!-- content -->
+                        <p id="u45093">&nbsp;</p>
+                        <p id="u45093-2">&nbsp;</p>
+                    </div>
                 </div>
-                <div class="rounded-corners clearfix grpelem" id="u41107-4">
+                <div class="rounded-corners clearfix grpelem" id="u45373-4">
                     <!-- content -->
-                    <p id="u41107">&nbsp;</p>
-                    <p id="u41107-2">&nbsp;</p>
+                    <p id="u45373">&nbsp;</p>
+                    <p id="u45373-2">&nbsp;</p>
                 </div>
-                <div class="clearfix grpelem" id="u41108-30">
-                    <p id="u41821-2">Recomendaciones</p>
+                <div class="clearfix grpelem" id="u45374-25">
                     <!-- content -->
-                    <p id="u41108-2">Para la boda te recomendamos traer chaqueta ligera y bloqueador solar.
-                    </p>
+                    <!-- content -->
+                    <p id="u41821-2">- Recomendaciones -</p>
+                    <p id="u41108-2">Para la boda te recomendamos traer chaqueta ligera y bloqueador solar.</p>
                     <p id="u41108-3">&nbsp;</p>
                     <p id="u41108-4">&nbsp;</p>
                     <p id="u41108-6"><b>Transporte</b></p>
@@ -2040,177 +2117,138 @@
                     <p id="u41108-11">&nbsp;</p>
                     <p id="u41108-13"><b>Tips: </b> <br>Se recomienda dar una propina del 10-15% en los restaurantes</p>
 
-                </div>
 
+                </div>
 
                 <!-- rasterized frame -->
+                <a class="anchor_item grpelem" id="gifts"></a>
             </div>
-            <a class="anchor_item colelem" id="regalos"></a>
-            <div class="browser_width colelem" id="u43057-bw">
-                <div class="museBGSize" id="u43057">
-                    <!-- group -->
-                    <div class="clearfix" id="u43057_align_to_page">
-                        <div class="clip_frame grpelem" id="u43072">
-                            <!-- image -->
-                            <img class="block" id="u43072_img" src="images/6.jpeg" data-hidpi-src="images/6.jpeg" alt="" width="auto" height="648" />
-                        </div>
-                        <div class="clearfix grpelem" id="pu43069-4">
-                            <!-- column -->
-                            <!-- rasterized frame -->
-                            <div class="clearfix colelem" id="u43063-4">
-                                <!-- content -->
-                                <p>Compartir esta ocasión especial contigo significa muchísimo para nosotros. Si decide que le gustaría enviarnos un regalo, se lo agradeceremos enormemente. Sin embargo, su presencia es nuestro regalo más preciado.</p>
-                            </div>
-                            <div class="clearfix colelem" id="pu50156-4">
-                                <!-- group -->
-                                <div class="clearfix grpelem" id="u50156-4">
-                                    <!-- contaent -->
-                                    <p>¡Click Aquí!</p>
-                                </div>
-                                <div class="banco clip_frame grpelem" id="u43095">
-                                    <!-- svg -->
-                                    <img class="svg" id="u43093" src="images/pasted-svg-230177x154.svg" width="117" height="78" alt="" data-mu-svgfallback="images/pasted%20svg%20230177x154_poster_.png" />
-                                </div>
+            <div class="browser_width colelem" id="u45095-bw">
+                <div class="museBGSize clearfix" id="u45095">
+                    <!-- column -->
+                    <div class="position_content" id="u45095_position_content">
+                        <div class="clearfix colelem" id="pcovid">
+                            <!-- group -->
+                            <a class="anchor_item grpelem" id="covid"></a>
+                            <div class="clip_frame grpelem" id="u45387">
+                                <!-- image -->
+                                <img class="block" id="u45387_img" src="../images/6.jpeg" data-hidpi-src="../images/6.jpeg" alt="" width="auto" height="325" />
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <a class="anchor_item colelem" id="covid"></a>
-            <img class="colelem" id="u41260-12" alt="COVID-19 Debido a la situación actual que estamos viviendo, estaremos tomando las medidas preventivas necesarias por lo que te pedimos que tu tambien lo hagas para poder disfrutar de esta celebración. SI TE CUIDAS TÚ, NOS CUIDAMOS TODOS"
-                width="902" height="184" src="images/covid-esp.png" data-hidpi-src="images/covid-esp.ong" />
-            <!-- rasterized frame -->
-            <a class="anchor_item colelem" id="rsvp"></a>
-            <div class="browser_width colelem" id="u34860-bw">
-                <div class="museBGSize" id="u34860">
-                    <!-- group -->
-                    <div class="clearfix" id="u34860_align_to_page">
-
-                        <form class="form-grp clearfix colelem" id="widgetu34898" method="post" enctype="multipart/form-data" action="https://formspree.io/f/mvodypgw">
-                            <!-- none box -->
+                        <img class="colelem" id="u45376-4" alt="- GIFT REGISTY -" width="320" height="27" src="../images/regalo.png" data-hidpi-src="../images/regalo.png" />
 
 
-                            <button class="submit-btn NoWrap rounded-corners shadow clearfix grpelem" id="u34900-4" type="submit" value="CONFIRMAR" tabindex="10" onclick="alert('Muchas gracias por su respuesta');">
-                                <!-- content -->
-                                <div style="margin-top:-15px;height:15px;">
-                                    <p>CONFIRMAR</p>
-                                </div>
-                            </button>
-                            <!--
-                            <script>
-                                $(document).ready(function() {
-                                    $("#widgetu34898").ajaxComplete(function() {
-                                        alert("Muchas gracias por su respuesta");
-
-                                    });
-                                });
-                            </script>
--->
-                            <div class="fld-grp clearfix grpelem" id="widgetu34910" data-required="true">
-                                <!-- none box -->
-                                <span class="fld-input NoWrap actAsDiv field rgba-background museBGSize clearfix grpelem" id="u34911-4">
-                                    <!-- content --><input class="wrapped-input" type="text" spellcheck="false"
-                                        id="widgetu34910_input" name="Full name" tabindex="1" /><label
-                                        class="wrapped-input fld-prompt" id="widgetu34910_prompt"
-                                        for="widgetu34910_input"><span class="actAsPara">Nombre Completo</span></label>
-                                </span>
-                            </div>
-                            <div class="fld-grp clearfix grpelem" id="widgetu34902" data-required="true">
-                                <!-- none box -->
-                                <span class="fld-input NoWrap actAsDiv rgba-background field museBGSize clearfix grpelem" id="u34904-4">
-                                    <!-- content --><input class="wrapped-input" type="tel" spellcheck="false"
-                                        id="widgetu34902_input" name="Phone" tabindex="2" /><label
-                                        class="wrapped-input fld-prompt" id="widgetu34902_prompt"
-                                        for="widgetu34902_input"><span class="actAsPara">Teléfono</span></label>
-                                </span>
-                            </div>
-                            <div class="fld-grp clearfix grpelem" id="widgetu41707" data-required="true">
-                                <!-- none box -->
-                                <span class="fld-input NoWrap actAsDiv field rgba-background museBGSize clearfix grpelem" id="u41710-4">
-        <!-- content --><input class="wrapped-input" type="text" id="widgetu41707_input" name="Email"
-            tabindex="4" /><label class="wrapped-input fld-prompt" id="widgetu41707_prompt"
-            for="widgetu41707_input"><span class="actAsPara">Correo Electrónico</span></label>
-                                </span>
-                            </div>
-
-                            <div class="fld-grp clearfix grpelem" id="widgetu41199" data-required="false">
-                                <!-- none box -->
-                                <span class="fld-input NoWrap actAsDiv field rgba-background museBGSize clearfix grpelem" id="u41201-4">
-                                    <!-- content --><input class="wrapped-input" type="text" id="widgetu41199_input"
-                                        name="Address" tabindex="5" /><label class="wrapped-input fld-prompt"
-                                        id="widgetu41199_prompt" for="widgetu41199_input"><span
-                                            class="actAsPara">Dirección</span></label>
-                                </span>
-                            </div>
-                            <!--     <div class="fld-grp clearfix grpelem" id="widgetu41211" data-required="false">
-                             
-                                <span class="fld-textarea actAsDiv field rgba-background museBGSize clearfix grpelem" id="u41213-4">
-                                   
-                                    <textarea class="wrapped-input" id="widgetu41211_input"
-                                        name="Dietary Restrictions" tabindex="6"></textarea><label
-                                        class="wrapped-input fld-prompt" id="widgetu41211_prompt"
-                                        for="widgetu41211_input"><span class="actAsPara">Restricciones alimenticias</span></label>
-                                </span>
-                            </div>-->
-
-
-                            <div class="fld-grp clearfix grpelem" id="widgetu46159" data-required="true">
-                                <!-- none box -->
-                                <span class="fld-input NoWrap actAsDiv field rgba-background museBGSize clearfix grpelem" id="u46161-4">
-                                    <!-- content --><input class="wrapped-input" type="text" id="widgetu46159_input"
-                                        name="Attend" tabindex="9" /><label class="wrapped-input fld-prompt"
-                                        id="widgetu46159_prompt" for="widgetu46159_input"><span class="actAsPara">¿Asistirás?</span></label>
-                                </span>
-                            </div>
-                        </form>
-                        <div style="font-weight: 400;" class="clearfix grpelem" id="u50138-8">
+                        <div class="clearfix colelem" id="u45172-4">
                             <!-- content -->
-                            <p>Nuestro sitio web de bodas está aquí para ayudarlo a planificar su viaje para nuestro gran día.</p>
-                            <p>Hemos proporcionado instrucciones de viaje, alojamiento y transporte en el hotel, recreaciones locales y el calendario de nuestro fin de semana de bodas.
-                            </p>
-                            <p>¡Te veremos pronto!</p>
+                            <p>Compartir esta ocasión especial contigo significa muchísimo para nosotros. Si decide que le gustaría enviarnos un regalo, se lo agradeceremos enormemente. Sin embargo, su presencia es nuestro regalo más preciado.</p>
                         </div>
+                        <div class="clearfix colelem" id="pu45389">
+                            <!-- group -->
+                            <div class="banco clip_frame grpelem" id="u45389">
+                                <!-- svg -->
+                                <img class="svg" id="u45390" src="../images/pasted-svg-230177x154.svg" width="117" height="78" alt="" data-mu-svgfallback="../images/pasted-svg-230177x154.svg" />
+                            </div>
+                            <div class="clearfix grpelem" id="u50655-4">
+                                <!-- content -->
+                                <p>Click Aquí</p>
+                            </div>
+                        </div>
+                        <a class="anchor_item colelem" id="coviden"></a>
                     </div>
                 </div>
             </div>
-            <div class="browser_width colelem" id="u35568-bw">
-                <div class="pointer_cursor" id="u35568">
+            <img class="colelem" id="u45171-13" alt="COVID-19 Due to the current COVID situation we are living through, we will be taking all of the preventive measures necessary to keep everyone safe, we ask that you do the same so we can all enjoy this celebration. BY TAKING CARE OF YOURSELF, YOU’RE TAKING CARE OF EVERYONE "
+                width="298" height="203" src="../images/covid-phone-esp.png" data-hidpi-src="../images/covid-phone-esp.png" />
+            <!-- rasterized frame -->
+            <div class="browser_width colelem" id="u45106-bw">
+                <div class="museBGSize clearfix" id="u45106">
                     <!-- group -->
-                    <a class="block" target="_blank" href="">
+                    <a class="anchor_item grpelem" id="rsvpen"></a>
+                </div>
+            </div>
+
+            <div class="clearfix colelem" id="u50150-4" style="font-weight: 400;">
+                <!-- content -->
+
+                <form method="post" action="https://formspree.io/f/mvodypgw">
+                    <div class="" id="widgetu34910">
+                        <input id="widgetu34910_prompt" name="FullName" type="text" placeholder="Nombre" required="true">
+                    </div>
+
+                    <div class="" id="widgetu34910">
+                        <input id="widgetu34910_prompt" name="Phone" type="tel" placeholder="Teléfono" required="true" minlength="8" tittle="Solo se aceptan números">
+                    </div>
+
+                    <div class="" id="widgetu34910">
+                        <input id="widgetu34910_prompt" name="Email" type="text" placeholder="E-mail" required="true" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" tittle="Ingrese un correo válido">
+                    </div>
+
+                    <div class="" id="widgetu34910">
+                        <input id="widgetu34910_prompt" name="Address" type="text" placeholder="Dirección">
+                    </div>
+
+                    <div class="" id="widgetu34910">
+                        <input id="widgetu34910_prompt" name="Attend" type="text" placeholder="¿Atenderás?" required="true">
+                    </div>
+
+
+                    <button class="submit-btn NoWrap rounded-corners shadow clearfix grpelem" id="u34900-4" type="submit" value="CONFIRMAR" tabindex="10" onclick="">
+                        <!-- content -->
+                        <div style="margin-top:-15px;height:15px;">
+                            <p>CONFIRMAR</p>
+                        </div>
+                    </button>
+
+                </form>
+
+
+
+            </div>
+
+            <div class="clearfix colelem" id="u50150-4" style="font-weight: 400;">
+                <p>Nuestro sitio web de bodas está aquí para ayudarlo a planificar su viaje para nuestro gran día.</p>
+                <p>Hemos proporcionado instrucciones de viaje, alojamiento y transporte en el hotel, recreaciones locales y el calendario de nuestro fin de semana de bodas.
+                </p>
+                <p>&nbsp;</p>
+                <p>¡Te veremos pronto!</p>
+            </div>
+
+            <div class="browser_width colelem" id="u45160-bw">
+                <div class="pointer_cursor clearfix" id="u45160">
+                    <!-- group -->
+                    <a class="block" target="_blank" href="#">
                         <!-- Block link tag -->
                     </a>
-                    <div class="clearfix" id="u35568_align_to_page">
-                        <a class="nonblock nontext clearfix grpelem" id="u35569-4" href="">
-                            <!-- content -->
-                            <p>BY WEB GIANTS</p>
-                        </a>
+                    <a class="nonblock nontext clearfix grpelem" id="u46066-4" href="#" target="_blank">
+                        <!-- content -->
+                        <p>BY WEB GIANTS</p>
+                    </a>
 
-                    </div>
                 </div>
             </div>
         </div>
-        <div class="verticalspacer" data-offset-top="7539" data-content-above-spacer="7728" data-content-below-spacer="0"></div>
-        <div class="clearfix grpelem" id="pu43124">
+        <div class="verticalspacer" data-offset-top="11553" data-content-above-spacer="11552" data-content-below-spacer="0"></div>
+        <div class="clearfix grpelem" id="pu45392">
             <!-- column -->
-            <div class="size_fixed colelem" id="u43124">
+            <div class="size_fixed colelem" id="u45392">
                 <!-- custom html -->
 
 
 
             </div>
-            <div class="size_fixed colelem" id="u43125">
+            <div class="size_fixed colelem" id="u45393">
                 <!-- custom html -->
 
 
 
             </div>
-            <div class="size_fixed colelem" id="u43123">
+            <div class="size_fixed colelem" id="u45391">
                 <!-- custom html -->
 
 
 
             </div>
-            <div class="size_fixed colelem" id="u43103">
+            <div class="size_fixed colelem" id="u45381">
                 <!-- custom html -->
 
 
@@ -2219,12 +2257,11 @@
         </div>
     </div>
 
-    <!-- JS includes -->
     <script type="text/javascript">
-        if (document.location.protocol != 'https:') document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+        if (document.location.protocol != 'https:') document.write('\x3Cscript src="../scripts/jquery.js" type="text/javascript">\x3C/script>');
     </script>
     <script type="text/javascript">
-        window.jQuery || document.write('\x3Cscript src="scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
+        window.jQuery || document.write('\x3Cscript src="../scripts/jquery-1.8.3.min.js" type="text/javascript">\x3C/script>');
     </script>
     <!-- Other scripts -->
     <script type="text/javascript">
@@ -2285,10 +2322,8 @@
                         }
                         c ? c().jquery != "1.8.3" && Muse.assets.outOfDate.push("jquery-1.8.3.min.js") : Muse.assets.required.push("jquery-1.8.3.min.js");
                         g.parentNode.removeChild(g);
-                        if (Muse.assets.outOfDate.length || Muse.assets.required.length) g = "Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.", f && Muse.assets.outOfDate.length && (g += "\nOut of date: " + Muse.assets.outOfDate.join(",")), f && Muse.assets.required.length && (g += "\nMissing: " + Muse.assets.required.join(",")), suppressMissingFileError ? (g += "\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.", console.log(g)) : console.log(g)
-
+                        if (Muse.assets.outOfDate.length || Muse.assets.required.length) g = "Some files on the server may be missing or incorrect. Clear browser cache and try again. If the problem persists please contact website author.", f && Muse.assets.outOfDate.length && (g += "\nOut of date: " + Muse.assets.outOfDate.join(",")), f && Muse.assets.required.length && (g += "\nMissing: " + Muse.assets.required.join(",")), suppressMissingFileError ? (g += "\nUse SuppressMissingFileError key in AppPrefs.xml to show missing file error pop up.", console.log(g)) : alert(g)
                     };
-
                 location && location.search && location.search.match && location.search.match(/muse_debug/gi) ?
                     setTimeout(function() {
                         f(!0)
@@ -2297,9 +2332,9 @@
         };
         var muse_init = function() {
             require.config({
-                baseUrl: ""
+                baseUrl: "../"
             });
-            require(["jquery", "museutils", "whatinput", "jquery.musepolyfill.bgsize", "webpro", "jquery.watch", "musewpslideshow", "jquery.museoverlay", "touchswipe", "jquery.scrolleffects"], function(c) {
+            require(["jquery", "museutils", "whatinput", "jquery.musepolyfill.bgsize", "jquery.watch", "webpro", "musewpdisclosure", "musewpslideshow", "jquery.museoverlay", "touchswipe", "jquery.scrolleffects"], function(c) {
                 var $ = c;
                 $(document).ready(function() {
                     try {
@@ -2312,6 +2347,12 @@
                             $('body').addClass('initialized');
                         }); /* mark body as initialized */
                         Muse.Utils.makeButtonsVisibleAfterSettingMinWidth(); /* body */
+                        Muse.Utils.initWidget('#accordionu47025', ['#bp_infinity'], function(elem) {
+                            return new WebPro.Widget.Accordion(elem, {
+                                canCloseAll: true,
+                                defaultIndex: -1
+                            });
+                        });
                         Muse.Utils.initWidget('#widgetu34898', ['#bp_infinity'], function(elem) {
                             return new WebPro.Widget.Form(elem, {
                                 validationEvent: 'submit',
@@ -2326,8 +2367,9 @@
                                 requiredClass: 'fld-err-st',
                                 ajaxSubmit: true
                             });
-                        }); /* #widgetu34898 */
-                        Muse.Utils.initWidget('#pamphletu50178', ['#bp_infinity'], function(elem) {
+                        });
+                        /* #accordionu47025 */
+                        Muse.Utils.initWidget('#pamphletu48491', ['#bp_infinity'], function(elem) {
                             return new WebPro.Widget.ContentSlideShow(elem, {
                                 contentLayout_runtime: 'stack',
                                 event: 'click',
@@ -2346,8 +2388,8 @@
                                 autoActivate_runtime: false,
                                 isResponsive: false
                             });
-                        }); /* #pamphletu50178 */
-                        Muse.Utils.initWidget('#pamphletu39661', ['#bp_infinity'], function(elem) {
+                        }); /* #pamphletu48491 */
+                        Muse.Utils.initWidget('#pamphletu50496', ['#bp_infinity'], function(elem) {
                             return new WebPro.Widget.ContentSlideShow(elem, {
                                 contentLayout_runtime: 'stack',
                                 event: 'click',
@@ -2366,8 +2408,8 @@
                                 autoActivate_runtime: false,
                                 isResponsive: false
                             });
-                        }); /* #pamphletu39661 */
-                        Muse.Utils.initWidget('#pamphletu39415', ['#bp_infinity'], function(elem) {
+                        }); /* #pamphletu50496 */
+                        Muse.Utils.initWidget('#pamphletu48462', ['#bp_infinity'], function(elem) {
                             return new WebPro.Widget.ContentSlideShow(elem, {
                                 contentLayout_runtime: 'stack',
                                 event: 'click',
@@ -2386,8 +2428,8 @@
                                 autoActivate_runtime: false,
                                 isResponsive: false
                             });
-                        }); /* #pamphletu39415 */
-                        Muse.Utils.initWidget('#pamphletu40960', ['#bp_infinity'], function(elem) {
+                        }); /* #pamphletu48462 */
+                        Muse.Utils.initWidget('#pamphletu45241', ['#bp_infinity'], function(elem) {
                             return new WebPro.Widget.ContentSlideShow(elem, {
                                 contentLayout_runtime: 'stack',
                                 event: 'click',
@@ -2406,8 +2448,8 @@
                                 autoActivate_runtime: false,
                                 isResponsive: false
                             });
-                        }); /* #pamphletu40960 */
-                        Muse.Utils.initWidget('#pamphletu41313', ['#bp_infinity'], function(elem) {
+                        }); /* #pamphletu45241 */
+                        Muse.Utils.initWidget('#pamphletu45224', ['#bp_infinity'], function(elem) {
                             return new WebPro.Widget.ContentSlideShow(elem, {
                                 contentLayout_runtime: 'stack',
                                 event: 'click',
@@ -2426,8 +2468,8 @@
                                 autoActivate_runtime: false,
                                 isResponsive: false
                             });
-                        }); /* #pamphletu41313 */
-                        Muse.Utils.initWidget('#pamphletu40882', ['#bp_infinity'], function(elem) {
+                        }); /* #pamphletu45224 */
+                        Muse.Utils.initWidget('#pamphletu45312', ['#bp_infinity'], function(elem) {
                             return new WebPro.Widget.ContentSlideShow(elem, {
                                 contentLayout_runtime: 'stack',
                                 event: 'click',
@@ -2446,8 +2488,8 @@
                                 autoActivate_runtime: false,
                                 isResponsive: false
                             });
-                        }); /* #pamphletu40882 */
-                        Muse.Utils.initWidget('#pamphletu49760', ['#bp_infinity'], function(elem) {
+                        }); /* #pamphletu45312 */
+                        Muse.Utils.initWidget('#pamphletu50075', ['#bp_infinity'], function(elem) {
                             return new WebPro.Widget.ContentSlideShow(elem, {
                                 contentLayout_runtime: 'stack',
                                 event: 'click',
@@ -2466,41 +2508,41 @@
                                 autoActivate_runtime: false,
                                 isResponsive: false
                             });
-                        }); /* #pamphletu49760 */
+                        }); /* #pamphletu50075 */
                         Muse.Utils.fullPage('#page'); /* 100% height page */
-                        $('#u39888').registerOpacityScrollEffect([{
-                            "in": [-Infinity, 1777.8],
+                        $('#u45371').registerOpacityScrollEffect([{
+                            "in": [-Infinity, 1600.46],
                             "fade": 50,
                             "opacity": 0
                         }, {
                             "opacity": 100,
-                            "in": [1777.8, 1777.8]
+                            "in": [1600.46, 1600.46]
                         }, {
-                            "in": [1777.8, Infinity],
+                            "in": [1600.46, Infinity],
                             "fade": 50,
                             "opacity": 100
                         }]); /* scroll effect */
-                        $('#u39833').registerOpacityScrollEffect([{
-                            "in": [-Infinity, 1772.5],
+                        $('#u45361').registerOpacityScrollEffect([{
+                            "in": [-Infinity, 2183.41],
                             "fade": 50,
                             "opacity": 0
                         }, {
                             "opacity": 100,
-                            "in": [1772.5, 1772.5]
+                            "in": [2183.41, 2183.41]
                         }, {
-                            "in": [1772.5, Infinity],
+                            "in": [2183.41, Infinity],
                             "fade": 50,
                             "opacity": 100
                         }]); /* scroll effect */
-                        $('#u39852').registerOpacityScrollEffect([{
-                            "in": [-Infinity, 1778.1],
+                        $('#u45369').registerOpacityScrollEffect([{
+                            "in": [-Infinity, 2825.41],
                             "fade": 50,
                             "opacity": 0
                         }, {
                             "opacity": 100,
-                            "in": [1778.1, 1778.1]
+                            "in": [2825.41, 2825.41]
                         }, {
-                            "in": [1778.1, Infinity],
+                            "in": [2825.41, Infinity],
                             "fade": 50,
                             "opacity": 100
                         }]); /* scroll effect */
@@ -2514,14 +2556,17 @@
         };
     </script>
     <!-- RequireJS script -->
-    <script src="scripts/require.js" type="text/javascript" async data-main="scripts/museconfig.js" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }"
+    <script src="../scripts/require.js" type="text/javascript" async data-main="../scripts/museconfig.js" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }"
         onerror="window.Muse.assets.check();"></script>
 
     <!--HTML Widget code-->
 
 
+
+
+
     <script>
-        function mtWidget_u43124() {
+        function mtWidget_u45392() {
             "use strict";
             var _typeof2 = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
                 return typeof e
@@ -3606,7 +3651,7 @@
                                 modalGraphicStyle: "como1",
                                 overlayColor: "#000000",
                                 overlayOpacity: "0.4",
-                                widgetId: "u43124",
+                                widgetId: "u45392",
                                 enableAutoModal: c.parseBoolean("false"),
                                 timerInitialization: 1e3 * parseInt("2"),
                                 openBtn: "como",
@@ -3690,12 +3735,15 @@
                 }]
             }, {}, [5]);
         }
-        mtWidget_u43124();
+        mtWidget_u45392();
     </script>
 
 
+
+
+
     <script>
-        function mtWidget_u43125() {
+        function mtWidget_u45393() {
             "use strict";
             var _typeof2 = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
                 return typeof e
@@ -4780,7 +4828,7 @@
                                 modalGraphicStyle: "contentcuando",
                                 overlayColor: "#000000",
                                 overlayOpacity: "0.4",
-                                widgetId: "u43125",
+                                widgetId: "u45393",
                                 enableAutoModal: c.parseBoolean("false"),
                                 timerInitialization: 1e3 * parseInt("2"),
                                 openBtn: "cuando",
@@ -4864,13 +4912,15 @@
                 }]
             }, {}, [5]);
         }
-        mtWidget_u43125();
+        mtWidget_u45393();
     </script>
 
 
 
+
+
     <script>
-        function mtWidget_u43123() {
+        function mtWidget_u45391() {
             "use strict";
             var _typeof2 = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
                 return typeof e
@@ -5955,7 +6005,7 @@
                                 modalGraphicStyle: "contentdonde",
                                 overlayColor: "#000000",
                                 overlayOpacity: "0.4",
-                                widgetId: "u43123",
+                                widgetId: "u45391",
                                 enableAutoModal: c.parseBoolean("false"),
                                 timerInitialization: 1e3 * parseInt("2"),
                                 openBtn: "donde",
@@ -6039,14 +6089,14 @@
                 }]
             }, {}, [5]);
         }
-        mtWidget_u43123();
+        mtWidget_u45391();
     </script>
 
 
 
 
     <script>
-        function mtWidget_u43103() {
+        function mtWidget_u45381() {
             "use strict";
             var _typeof2 = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(e) {
                 return typeof e
@@ -6744,7 +6794,6 @@
                                 if ("click" == c.default.triggerEvent) {
                                     var i = document.querySelector("." + c.default.openBtn);
                                     i && i.addEventListener("click", function() {
-                                        //(0, h.default)(c.default)
                                         location.href = "https://www.bloomingdales.com/registry/wedding/guest/BIANCA-FERRI-SPENCER-RICH/?registryId=2414114";
                                     })
                                 }
@@ -7132,7 +7181,7 @@
                                 modalGraphicStyle: "bancoin",
                                 overlayColor: "#000000",
                                 overlayOpacity: "0.4",
-                                widgetId: "u43103",
+                                widgetId: "u45381",
                                 enableAutoModal: c.parseBoolean("false"),
                                 timerInitialization: 1e3 * parseInt("2"),
                                 openBtn: "banco",
@@ -7216,8 +7265,9 @@
                 }]
             }, {}, [5]);
         }
-        mtWidget_u43103();
+        mtWidget_u45381();
     </script>
+
 
 </body>
 
